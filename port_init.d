@@ -1,0 +1,10 @@
+.\port_init.o: Port_Init.c
+.\port_init.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\port_init.o: tm4c123gh6pm.h
+.\port_init.o: ST7735.h
+.\port_init.o: Random.h
+.\port_init.o: TExaS.h
+.\port_init.o: ADC.h
+.\port_init.o: MainMenu.h
+.\port_init.o: Timer1.h
+.\port_init.o: Port_Init.h

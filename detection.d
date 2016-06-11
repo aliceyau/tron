@@ -1,0 +1,10 @@
+.\detection.o: Detection.c
+.\detection.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\detection.o: tm4c123gh6pm.h
+.\detection.o: ST7735.h
+.\detection.o: Random.h
+.\detection.o: TExaS.h
+.\detection.o: ADC.h
+.\detection.o: MainMenu.h
+.\detection.o: Port_Init.h
+.\detection.o: Sound.h

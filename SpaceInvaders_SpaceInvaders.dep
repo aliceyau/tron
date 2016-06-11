@@ -1,0 +1,94 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x572A7ABC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x572A7ABD)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\DAC.c)(0x575B52D3)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+F (.\ADC.c)(0x572A7ABC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+F (.\Timer0.c)(0x572A7ABB)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+F (.\Timer1.c)(0x572A7ABD)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+F (.\Sound.c)(0x575BE09B)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Sound.h)(0x572B002B)
+I (DAC.h)(0x572A7ABB)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+I (ST7735.h)(0x572A7ABC)
+I (Random.h)(0x572A7ABD)
+I (TExaS.h)(0x572A7ABD)
+F (.\LCD.s)(0x572A7ABC)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\lcd.lst --xref -o .\lcd.o --depend .\lcd.d)
+F (.\Print.s)(0x572A7ABB)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\SpaceInvaders.c)(0x575BD88E)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+I (ST7735.h)(0x572A7ABC)
+I (Random.h)(0x572A7ABD)
+I (TExaS.h)(0x572A7ABD)
+I (ADC.h)(0x572A7ABC)
+I (MainMenu.h)(0x572A7ABC)
+I (Port_Init.h)(0x572A7ABB)
+I (Sound.h)(0x572B002B)
+I (Detection.h)(0x572A7ABD)
+F (.\ST7735.c)(0x572A7ABC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x572A7ABC)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+F (.\tm4c123gh6pm.h)(0x572A7ABB)()
+F (.\ADC.h)(0x572A7ABC)()
+F (.\MainMenu.c)(0x575BDC0C)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\mainmenu.o --omf_browse .\mainmenu.crf --depend .\mainmenu.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+I (ST7735.h)(0x572A7ABC)
+I (Random.h)(0x572A7ABD)
+I (TExaS.h)(0x572A7ABD)
+I (ADC.h)(0x572A7ABC)
+I (MainMenu.h)(0x572A7ABC)
+I (Timer1.h)(0x572A7ABD)
+I (Port_Init.h)(0x572A7ABB)
+I (Sound.h)(0x572B002B)
+I (TwoPlayer.h)(0x572B2C8C)
+I (CPU.h)(0x572A7ABF)
+I (Detection.h)(0x572A7ABD)
+I (Timer0.h)(0x572A7ABB)
+F (.\Port_Init.c)(0x575BD871)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\port_init.o --omf_browse .\port_init.crf --depend .\port_init.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+I (ST7735.h)(0x572A7ABC)
+I (Random.h)(0x572A7ABD)
+I (TExaS.h)(0x572A7ABD)
+I (ADC.h)(0x572A7ABC)
+I (MainMenu.h)(0x572A7ABC)
+I (Timer1.h)(0x572A7ABD)
+I (Port_Init.h)(0x572A7ABB)
+F (.\Port_Init.h)(0x572A7ABB)()
+F (.\DAC.h)(0x572A7ABB)()
+F (.\TwoPlayer.c)(0x575BEC62)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\twoplayer.o --omf_browse .\twoplayer.crf --depend .\twoplayer.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+I (ST7735.h)(0x572A7ABC)
+I (Random.h)(0x572A7ABD)
+I (TExaS.h)(0x572A7ABD)
+I (ADC.h)(0x572A7ABC)
+I (MainMenu.h)(0x572A7ABC)
+I (Timer1.h)(0x572A7ABD)
+I (Port_Init.h)(0x572A7ABB)
+I (Sound.h)(0x572B002B)
+I (Detection.h)(0x572A7ABD)
+I (Timer0.h)(0x572A7ABB)
+F (.\Detection.c)(0x572A7ABD)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\detection.o --omf_browse .\detection.crf --depend .\detection.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x572A7ABB)
+I (ST7735.h)(0x572A7ABC)
+I (Random.h)(0x572A7ABD)
+I (TExaS.h)(0x572A7ABD)
+I (ADC.h)(0x572A7ABC)
+I (MainMenu.h)(0x572A7ABC)
+I (Port_Init.h)(0x572A7ABB)
+I (Sound.h)(0x572B002B)
+F (.\texas.o)(0x572A7ABD)()
